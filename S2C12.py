@@ -109,5 +109,4 @@ def byte_at_a_time_ECB_decryption(unknown_string):
 if __name__ == "__main__":
     unknown_string = b"Um9sbGluJyBpbiBteSA1LjAKV2l0aCBteSByYWctdG9wIGRvd24gc28gbXkg\naGFpciBjYW4gYmxvdwpUaGUgZ2lybGllcyBvbiBzdGFuZGJ5IHdhdmluZyBq\ndXN0IHRvIHNheSBoaQpEaWQgeW91IHN0b3A/IE5vLCBJIGp1c3QgZHJvdmUg\nYnkK"
     unknown_string_base64 = codecs.decode(unknown_string,'base64')
-    print(byte_at_a_time_ECB_decryption(unknown_string_base64))
-    
+    print(byte_at_a_time_ECB_decryption(unknown_string_base64)) 
